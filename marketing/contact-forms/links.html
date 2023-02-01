@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing UI</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Block start -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-md sm:py-16 lg:px-6">
+            <h2 class="mb-8 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Contact Us</h2>
+            <div class="mb-4">
+                <label for="account_1" class="block mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-400">Account recovery type</label>
+                <select id="account_1" class="block py-2.5 px-0 w-full text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-500 focus:outline-none focus:ring-0 focus:border-primary-600 peer">
+                    <option>Account Login & Recovery</option>
+                    <option>Account Password</option>
+                    <option>Account Type</option>
+                </select>
+            </div>
+            <div>
+                <label for="account_2" class="block mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-400">Account recovery type</label>
+                <select id="account_2" class="block py-2.5 px-0 w-full text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary-500 focus:outline-none focus:ring-0 focus:border-primary-600 peer">
+                    <option>Account Access</option>
+                    <option>Account Password</option>
+                    <option>Account Status</option>
+                </select>
+            </div>
+            <h3 class="mt-8 mb-5 text-xl font-extrabold text-gray-900 dark:text-white">Popular guides & tutorials</h3>
+            <ul class="space-y-3">
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">I Can't Log In</a>
+                </li>
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">I Think My Account Has Been Compromised</a>
+                </li>
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">Recover Username or Reset Password</a>
+                </li>
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">Troubleshoot the Signup Activation Email</a>
+                </li>
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">Activate Account Notifications</a>
+                </li>
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">Manage Account Login and Profile</a>
+                </li>
+                <li>
+                    <a href="#" class="font-semibold text-primary-600 hover:underline dark:text-primary-500">Set Account Security Options</a>
+                </li>
+            </ul>
+            <h3 class="mt-8 mb-5 text-xl font-extrabold text-gray-900 dark:text-white">Didn't find what you're looking for?</h3>
+            <form action="#" class="grid grid-cols-1 gap-8 mx-auto max-w-screen-md sm:grid-cols-2">
+                <div>
+                    <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
+                    <input type="text" id="first-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required>
+                </div>
+                <div>
+                    <label for="last-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last Name</label>
+                    <input type="text" id="last-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Green" required>
+                </div>
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="phone-number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Phone Number</label>
+                    <input type="number" id="phone-number" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="+12 345 6789" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                    <p class="mt-4 text-sm text-gray-500">By submitting this form you agree to our <a href="#" class="text-primary-600 hover:underline dark:text-primary-500">terms and conditions</a> and our <a href="#" class="text-primary-600 hover:underline dark:text-primary-500">privacy policy</a> which explains how we may collect, use and disclose your personal information including to third parties.</p>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            </form>
+        </div>
+    </section>
+    <!-- Block end -->
+
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing UI</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Block start -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <!-- Pricing Card -->
+            <div
+                class="bg-white rounded-lg divide-y divide-gray-200 shadow dark:divide-gray-700 lg:divide-y-0 lg:divide-x lg:grid lg:grid-cols-3 dark:bg-gray-800">
+                <div class="col-span-2 p-6 lg:p-8">
+                    <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Choose a pricing plan:</h3>
+                    <ul class="grid grid-cols-2 text-sm font-medium text-center text-gray-500 shadow md:rounded-lg md:grid-cols-4 dark:divide-gray-600 dark:text-gray-400"
+                        role="tablist">
+                        <li class="w-full" role="presentation">
+                            <button id="starter-tab" type="button"
+                                class="inline-block p-4 w-full border border-gray-200 dark:border-gray-500 md:rounded-l-lg">Starter</button>
+                        </li>
+                        <li class="w-full" role="presentation">
+                            <button id="standard-tab" type="button"
+                                class="inline-block p-4 w-full border dark:border-gray-500 border-gray-200">Standard</button>
+                        </li>
+                        <li class="w-full" role="presentation">
+                            <button id="premium-tab" type="button"
+                                class="inline-block p-4 w-full border dark:border-gray-500 border-gray-200">Premium</button>
+                        </li>
+                        <li class="w-full" role="presentation">
+                            <button id="enterprise-tab" type="button"
+                                class="inline-block p-4 w-full border border-gray-200 dark:border-gray-500 md:rounded-r-lg">Enterprise</button>
+                        </li>
+                    </ul>
+                    <div id="starter-content" class="hidden">
+                        <div class="mt-6 mb-2 font-medium text-gray-900 dark:text-white">Starter details:</div>
+                        <p class="text-lg font-light text-gray-500 dark:text-gray-400">Plan pricing starts at 250
+                            contacts.
+                            Select your audience size to calculate your price. The monthly email send limit for Standard
+                            plans is 12 times your maximum contact count.*.</p>
+                    </div>
+                    <div id="standard-content" class="hidden">
+                        <div class="mt-6 mb-2 font-medium text-gray-900 dark:text-white">Standard details:</div>
+                        <p class="text-lg font-light text-gray-500 dark:text-gray-400">Plan pricing starts at 500
+                            contacts.
+                            Select your audience size to calculate your price. The monthly email send limit for Standard
+                            plans is 12 times your maximum contact count.*.</p>
+                    </div>
+                    <div id="premium-content" class="hidden">
+                        <div class="mt-6 mb-2 font-medium text-gray-900 dark:text-white">Premium details:</div>
+                        <p class="text-lg font-light text-gray-500 dark:text-gray-400">Plan pricing starts at 1000
+                            contacts.
+                            Select your audience size to calculate your price. The monthly email send limit for Standard
+                            plans is 12 times your maximum contact count.*.</p>
+                    </div>
+                    <div id="enterprise-content" class="hidden">
+                        <div class="mt-6 mb-2 font-medium text-gray-900 dark:text-white">Enterprise details:</div>
+                        <p class="text-lg font-light text-gray-500 dark:text-gray-400">Plan pricing starts at unlimited
+                            contacts.
+                            Select your audience size to calculate your price. The monthly email send limit for Standard
+                            plans is 12 times your maximum contact count.*.</p>
+                    </div>
+                </div>
+                <div class="flex p-6 lg:p-8">
+                    <div id="starter-plan" class="hidden self-center w-full">
+                        <div class="mb-4 text-2xl font-semibold text-gray-900 dark:text-white">Starter plan</div>
+                        <div class="font-light text-gray-500 dark:text-gray-400">Starts at</div>
+                        <div class="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white">$49</div>
+                        <a href="#"
+                            class="flex justify-center text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-bue-200 dark:focus:ring-primary-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-4">Buy
+                            now</a>
+                        <a href="#"
+                            class="flex items-center mb-4 font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500">
+                            View team pricing
+                            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">*To see the monthly email send limit
+                            included with your specific plan, click Calculate my price. If your plan's contact or email
+                            send limit is exceeded, you will be charged for overages.</p>
+                    </div>
+                    <div id="standard-plan" class="hidden self-center w-full">
+                        <div class="mb-4 text-2xl font-semibold text-gray-900 dark:text-white">Standard plan</div>
+                        <div class="font-light text-gray-500 dark:text-gray-400">Starts at</div>
+                        <div class="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white">$99</div>
+                        <a href="#"
+                            class="flex justify-center text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-bue-200 dark:focus:ring-primary-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-4">Buy
+                            now</a>
+                        <a href="#"
+                            class="flex items-center mb-4 font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500">
+                            View team pricing
+                            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">*To see the monthly email send limit
+                            included with your specific plan, click Calculate my price. If your plan's contact or email
+                            send limit is exceeded, you will be charged for overages.</p>
+                    </div>
+                    <div id="premium-plan" class="hidden self-center w-full">
+                        <div class="mb-4 text-2xl font-semibold text-gray-900 dark:text-white">Premium plan</div>
+                        <div class="font-light text-gray-500 dark:text-gray-400">Starts at</div>
+                        <div class="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white">$149</div>
+                        <a href="#"
+                            class="flex justify-center text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-bue-200 dark:focus:ring-primary-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-4">Buy
+                            now</a>
+                        <a href="#"
+                            class="flex items-center mb-4 font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500">
+                            View team pricing
+                            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">*To see the monthly email send limit
+                            included with your specific plan, click Calculate my price. If your plan's contact or email
+                            send limit is exceeded, you will be charged for overages.</p>
+                    </div>
+                    <div id="enterprise-plan" class="hidden self-center w-full">
+                        <div class="mb-4 text-2xl font-semibold text-gray-900 dark:text-white">Enterprise plan</div>
+                        <div class="font-light text-gray-500 dark:text-gray-400">Starts at</div>
+                        <div class="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white">$249</div>
+                        <a href="#"
+                            class="flex justify-center text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-bue-200 dark:focus:ring-primary-900 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-4">Buy
+                            now</a>
+                        <a href="#"
+                            class="flex items-center mb-4 font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500">
+                            View team pricing
+                            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">*To see the monthly email send limit
+                            included with your specific plan, click Calculate my price. If your plan's contact or email
+                            send limit is exceeded, you will be charged for overages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Block end -->
+
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script>
+        const pricingTabEls = [
+            {
+                id: 'starter',
+                triggerEl: document.querySelector('#starter-tab'),
+                targetEl: document.querySelector('#starter-content'),
+                pricingEl: document.querySelector('#starter-plan')
+            },
+            {
+                id: 'standard',
+                triggerEl: document.querySelector('#standard-tab'),
+                targetEl: document.querySelector('#standard-content'),
+                pricingEl: document.querySelector('#standard-plan')
+            },
+            {
+                id: 'premium',
+                triggerEl: document.querySelector('#premium-tab'),
+                targetEl: document.querySelector('#premium-content'),
+                pricingEl: document.querySelector('#premium-plan')
+            },
+            {
+                id: 'enterprise',
+                triggerEl: document.querySelector('#enterprise-tab'),
+                targetEl: document.querySelector('#enterprise-content'),
+                pricingEl: document.querySelector('#enterprise-plan')
+            }
+        ];
+
+        const options = {
+            defaultTabId: 'standard',
+            activeClasses: 'text-gray-900 bg-gray-100 dark:bg-gray-600 dark:text-white',
+            inactiveClasses: 'bg-white hover:text-gray-700 hover:bg-gray-50 dark:hover:text-white dark:bg-gray-700 dark:hover:bg-gray-600',
+            onShow(context) {
+                const activeTab = context.getActiveTab();
+                pricingTabEls.map(function (el) {
+                    el.pricingEl.classList.add('hidden')
+                })
+                activeTab.pricingEl.classList.remove('hidden');
+            }
+        }
+
+        const pricingTabs = new Tabs(pricingTabEls, options);
+    </script>
+</body>
+
+</html>

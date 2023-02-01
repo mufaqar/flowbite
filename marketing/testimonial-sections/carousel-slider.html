@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing UI</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Block start -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm mb-8 lg:mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Testimonials</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Explore the whole collection of
+                    open-source web components and elements built with the utility classes from Tailwind</p>
+            </div>
+            <div id="testimonial-carousel" class="relative" data-carousel="slide">
+                <div
+                    class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 rounded-lg sm:h-48">
+                    <figure class="hidden mx-auto w-full max-w-screen-md" data-carousel-item>
+                        <blockquote>
+                            <p class="text-lg font-medium text-gray-900 sm:text-2xl dark:text-white">"Flowbite is just
+                                awesome. It contains tons of predesigned components and pages starting from login screen
+                                to complex dashboard. Perfect choice for your next SaaS application."</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center mt-6 space-x-3">
+                            <img class="w-6 h-6 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                                alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Bonnie Green</div>
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Web developer at
+                                    Google</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="hidden mx-auto w-full max-w-screen-md" data-carousel-item>
+                        <blockquote>
+                            <p class="text-lg font-medium text-gray-900 sm:text-2xl dark:text-white">"As someone who
+                                mainly designs in the browser, I've been a casual user of Figma, but as soon as I saw
+                                and started playing with FlowBite my mind was blown and became so productive."</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center mt-6 space-x-3">
+                            <img class="w-6 h-6 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png"
+                                alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Helene Engels</div>
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Creative designer
+                                    at Adobe</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="hidden mx-auto w-full max-w-screen-md" data-carousel-item>
+                        <blockquote>
+                            <p class="text-lg font-medium text-gray-900 sm:text-2xl dark:text-white">"Flowbite has code
+                                in one place and I'm not joking when I say it took me a matter of minutes to copy the
+                                code, customise it and integrate within a Laravel + Vue application."</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center mt-6 space-x-3">
+                            <img class="w-6 h-6 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png"
+                                alt="profile picture">
+                            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                                <div class="pr-3 font-medium text-gray-900 dark:text-white">Neil Sims</div>
+                                <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CTO at Microsoft
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="flex justify-center items-center">
+                    <button type="button"
+                        class="flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-prev>
+                        <span class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="hidden">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button"
+                        class="flex justify-center items-center h-full cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="hidden">Next</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Block end -->
+
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>
