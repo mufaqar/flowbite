@@ -1,0 +1,26 @@
+{
+  "name": "flowbite-publisher-ui-blocks",
+  "version": "1.0.0",
+  "description": "Source code for the block sections for the Publisher UI category for Flowbite Pro.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themesberg/flowbite-publisher-ui-blocks.git"
+  },
+  "author": "Flowbite",
+  "license": "https://flowbite.com/license/",
+  "bugs": {
+    "url": "https://flowbite.com/contact/"
+  },
+  "homepage": "https://flowbite.com/blocks/publisher/",
+  "devDependencies": {
+    "flowbite-typography": "^1.0.3",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "flowbite": "^1.5.3"
+  }
+}
